@@ -1,0 +1,5 @@
+import java.util.Scanner;
+
+public abstract class CodeForces {
+    public static Scanner reader = new Scanner(System.in);
+}
