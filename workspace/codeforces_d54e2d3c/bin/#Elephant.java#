@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Elephant {
     public static void main(String[] args) {
 	Scanner reader = new Scanner(System.in);
-
+	
 	float n = reader.nextInt();
 
 	System.out.println(Math.round(Math.ceil(n / (float) 5)));

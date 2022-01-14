@@ -10,6 +10,16 @@
 (setq mac-command-modifier 'meta)
 
 (electric-pair-mode 1)
+(set-background-color "black")
+(set-foreground-color "white")
+(show-paren-mode 1)
+
+(setq power-mode-shake-strength nil)
+(setq power-mode-streak-shake-threshold nil)
+(use-package power-mode
+  :load-path "~/.emacs.d/power-mode.el"
+  :init
+  (add-hook 'after-init-hook #'power-mode))
 
 ;; Move cursor to end of current line
 ;; Insert new line below current line
@@ -66,3 +76,51 @@ apps are not started from a shell."
   (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration)
   (require 'dap-cpptools)
   (yas-global-mode))
+
+(setq ido-everywhere t)
+(setq ido-enable-flex-matching t)
+(setq ido-show-dot-for-dired t)
+(ido-mode t)
+
+(use-package projectile
+  :ensure t
+  :config
+  (define-key projectile-mode-map (kbd "C-x p") 'projectile-command-map)
+  (projectile-mode 1))
+
+(use-package dashboard
+  :ensure t
+  :init
+  (progn
+    (setq dashboard-items '((recents . 5)
+			    (projects . 3)
+			    (agenda . 5))))
+  (setq dashboard-center-content t)
+  (setq dashboard-set-file-icons t)
+  (setq dashboard-set-heading-icons t)
+  (setq dashboard-startup-banner "~/.emacs.d/sticker.png")
+  (setq dashboard-banner-logo-title "'Writepo :(' - Baby")
+  (setq dashboard-image-banner-max-height 150)
+  (setq dashboard-image-banner-max-width 150)
+  :config
+  (dashboard-setup-startup-hook))
+
+(setq org-agenda-start-with-log-mode t)
+(setq org-log-done 'time)
+(setq org-log-into-drawer t)
+
+(use-package expand-region
+  :ensure t
+  :config
+  (global-set-key (kbd "C-=") 'er/expand-region))
+
+(use-package centaur-tabs
+  :ensure t
+  :config
+  (setq centaur-tabs-set-bar 'over
+	centaur-tabs-set-icons t
+	centaur-tabs-gray-out-icons 'buffer
+	centaur-tabs-height 24
+	centaur-tabs-set-modified-marker t
+	centaur-tabs-modified-marker "*")
+  (centaur-tabs-mode t))
