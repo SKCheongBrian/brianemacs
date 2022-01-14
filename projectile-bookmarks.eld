@@ -1,1 +1,1 @@
-("~/" "~/.emacs.d/" "~/.emacs.d/power-mode.el/")
+("~/" "~/.emacs.d/" "~/Documents/NUS/TA_CS2030S/lab0-SKCheongBrian/" "~/.emacs.d/power-mode.el/")

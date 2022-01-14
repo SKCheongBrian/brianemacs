@@ -3,6 +3,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(c-basic-offset 'set-from-style)
  '(display-line-numbers t)
  '(global-hl-line-mode nil)
  '(lsp-enable-on-type-formatting nil)

@@ -2,8 +2,9 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/briancheong/Documents/NUS/" . "TA_CS2030S/")
  ("/Users/briancheong/Documents/Projects/" . "codeforces/")
- ("/Users/briancheong/Documents/" . "Projects/")
+ ("/Users/briancheong/Documents/" . "NUS/")
  ("/Users/" . "briancheong/")
  ("/Users/briancheong/" . ".emacs.d/")
  ("/Users/briancheong/.emacs.d/" . "power-mode.el/")
@@ -13,6 +14,8 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/briancheong/.emacs.d/"
+ "/Users/briancheong/Documents/NUS/TA_CS2030S/lab0-SKCheongBrian/"
+ "/Users/briancheong/Documents/NUS/TA_CS2030S/"
  "/Users/briancheong/.emacs.d/power-mode.el/"
  "/Users/briancheong/Documents/Projects/codeforces/"
  "/Users/briancheong/OrgFiles/"
@@ -23,8 +26,9 @@
 ;; ----- ido-work-file-list -----
 (
  "Emacs.org"
- "power-mode.el"
+ "Circle.java"
  "."
+ "power-mode.el"
  "MakeAP.java"
  "TrianglesOnRectangle.java"
  "Birthdays.org"
@@ -32,9 +36,17 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/briancheong/.emacs.d/" (25055 35355 931562 31000) ".lsp-session-v1" "sticker.png" ".cache/" ".git/" "Emacs.org~" "elpa/" "recentf" ".dap-breakpoints" "Emacs.org" "network-security.data" "sanemacs.el" "#Emacs.org#" "init.el" "emacs-custom.el" "auto-save-list/" "emacs-custom.el~" "custom.el" "recentf~" "eclipse.jdt.ls/" "workspace/" "projectile-bookmarks.eld" "ido.last~" "power-mode.el/" "init.el~" "ido.last" "snippets/" "../" "./")
+ ("/Users/briancheong/.emacs.d/" (25057 42391 716690 632000) ".lsp-session-v1" "sticker.png" ".cache/" ".git/" "Emacs.org~" "elpa/" "recentf" ".dap-breakpoints" "Emacs.org" "network-security.data" "sanemacs.el" "init.el" "emacs-custom.el" "auto-save-list/" "emacs-custom.el~" "custom.el" "recentf~" "eclipse.jdt.ls/" "workspace/" "projectile-bookmarks.eld" "ido.last~" "power-mode.el/" "init.el~" "ido.last" "snippets/" "../" "./")
 
- ("/Users/briancheong/" (25055 2168 528167 655000) ".zsh_sessions/" ".viminfo" ".bash_history" ".telega/" ".mume/" ".gitconfig" "lab10part2.circ" ".cache/" ".python_history" "Downloads/" ".Xauthority" ".kite/" ".m2/" ".spacemacs" ".vscode/" ".mono/" "Multiplication-Exercise/" ".spacemacs.env" "Documents/" ".npm/" ".vscode-insiders/" "test.c" "floobits/" ".gitflow_export" "IdeaProjects/" ".Trash/" ".emacs~" ".gradle/" ".profile" "Applications/" ".dotnet/" ".vimrc" "Movies/" "StudioProjects/" ".ssh/" ".rustup/" ".sonarlint/" "CheongSzeKaiBrianLab9.zip" "multiplication.py" ".flutter" ".zshenv" "colors/" "poo" "package.json" "package-lock.json" ".vscode-oss/" "Person.java" "Public/" "PycharmProjects/" "a.out" "OrgFiles/" ".ms_openjdk_config" ".cups/" ".gitignore_global" ".back.up.emacs.d/" ".android/" ".cargo/" "codingproblems/" ".emacs.d/" "vimrc" ".IdentityService/" ".floorc.json" ".emulator_console_auth_token" ".gdbinit" ".oracle_jre_usage/" "vscode-extensions.txt" ".lesshst" "Library/" "Desktop/" "CodingProject/" ".zsh_history" ".flutter_tool_state" "CS1010E/" ".nuget/" ".pub-cache/" ".openjfx/" ".dartServer/" "node_modules/" ".authinfo" "CheongSzeKaiBrianLab9/" ".zprofile" ".atom/" "cs2030ssh.sh" ".pylint.d/" "Pictures/" "Projects/" "Person.class" ".local/" "fintech_folio/" ".templateengine/" "org/" ".omnisharp/" ".zshrc" ".tooling/" ".hgignore_global" "playground/" ".stCommitMsg" ".CFUserTextEncoding" ".lldb/" "get-pip.py" ".DS_Store" ".dart/" ".vim/" "pythonCode/" "lab10part1.circ" "Developer/" ".gitkraken/" "avenger" ".notes.swp" "Unity/" "Music/" ".macports/" ".config/" "Solution.java" "../" "./")
+ ("/Users/briancheong/.back.up.emacs.d/" (24968 42071 904334 941000) ".lsp-session-v1" ".cache/" ".git/" "elpa/" ".dap-breakpoints" ".#init.el" "bookmarks" "init.el" "auto-save-list/" "var/" "etc/" "eclipse.jdt.ls/" "workspace/" "transient/" "projectile-bookmarks.eld" ".DS_Store" "tutorial/" "forge-database.sqlite" ".custom.el" "../" "./")
+
+ ("/Users/briancheong/Documents/NUS/TA_CS2030S/lab0-SKCheongBrian/" (25057 39526 333680 754000) "inputs/" "outputs/" "test.sh" ".git/" "Question.md" "Test1.java" ".#Point.java" "Lab0.java" ".gitignore" "Circle.java" "RandomPoint.java" "Point.java" "Test2.java" "CS2030STest.java" "Test3.java" "../" "./")
+
+ ("/Users/briancheong/Documents/NUS/TA_CS2030S/" (25057 39452 968757 162000) "lab0-SKCheongBrian/" "../" "./")
+
+ ("/Users/briancheong/Documents/NUS/" (25057 39445 817487 781000) "src/" "CS1101S/" "GER1000/" "TA_CS2030S/" "jdk-11.0.9.jdk/" "GEQ1000/" "ES2660/" "ST2334/" "CS2105/" "LSM1303/" "CS2102/" "CS2030S/" "CP2201/" "MA1101R/" "CS1010E/" "Provectus/" "GEH1049/" "CS1231S/" "recording/" "TA_CS1101S/" "CS2100/" "MySolutionMazeSolverWithPower.java" "CS2101/" "CS2040S/" "CS2106/" ".DS_Store" "CS2103T/" "IS1103/" "GET1026/" "../" "./")
+
+ ("/Users/briancheong/" (25057 39422 911145 961000) ".zsh_sessions/" ".viminfo" ".bash_history" ".telega/" ".mume/" ".gitconfig" "lab10part2.circ" ".cache/" ".python_history" "Downloads/" ".Xauthority" ".kite/" ".m2/" ".spacemacs" ".vscode/" ".mono/" "Multiplication-Exercise/" ".spacemacs.env" "Documents/" ".npm/" ".vscode-insiders/" "test.c" "floobits/" ".gitflow_export" "IdeaProjects/" ".Trash/" ".emacs~" ".gradle/" ".profile" "Applications/" ".dotnet/" ".vimrc" "Movies/" "StudioProjects/" ".ssh/" ".rustup/" ".sonarlint/" "CheongSzeKaiBrianLab9.zip" "multiplication.py" ".flutter" ".zshenv" "colors/" "poo" "package.json" "package-lock.json" ".vscode-oss/" "Person.java" "Public/" "PycharmProjects/" "a.out" "OrgFiles/" ".ms_openjdk_config" ".cups/" ".gitignore_global" ".back.up.emacs.d/" ".android/" ".cargo/" "codingproblems/" ".emacs.d/" "vimrc" ".IdentityService/" ".floorc.json" ".emulator_console_auth_token" ".gdbinit" ".oracle_jre_usage/" "vscode-extensions.txt" ".lesshst" "Library/" "Desktop/" "CodingProject/" ".zsh_history" ".flutter_tool_state" "CS1010E/" ".nuget/" ".pub-cache/" ".openjfx/" ".dartServer/" "node_modules/" ".authinfo" "CheongSzeKaiBrianLab9/" ".zprofile" ".atom/" "cs2030ssh.sh" ".pylint.d/" "Pictures/" "Projects/" "Person.class" ".local/" "fintech_folio/" ".templateengine/" "org/" ".omnisharp/" ".zshrc" ".tooling/" ".hgignore_global" "playground/" ".stCommitMsg" ".CFUserTextEncoding" ".lldb/" "get-pip.py" ".DS_Store" ".dart/" ".vim/" "pythonCode/" "lab10part1.circ" "Developer/" ".gitkraken/" "avenger" ".notes.swp" "Unity/" "Music/" ".macports/" ".config/" "Solution.java" "../" "./")
 
  ("/Users/briancheong/.emacs.d/power-mode.el/" (25055 2007 25242 994000) ".git/" "screencast.gif" "README.md" "power-mode.el" "LICENSE" "../" "./")
 

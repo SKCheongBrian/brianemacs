@@ -6,11 +6,19 @@
 	("org" . "https://orgmode.org/elpa/")
 	("melpa" . "http://melpa.org/packages/")))
 
+(setq visible-bell nil
+      ring-bell-function 'flash-mode-line)
+(defun flash-mode-line ()
+  (invert-face 'mode-line)
+  (run-with-timer 0.1 nil #'invert-face 'mode-line))
+
 (setq mac-option-modifier 'super)
 (setq mac-command-modifier 'meta)
 
+(set-face-attribute 'mode-line nil :foreground "black" :background "cyan")
+
 (electric-pair-mode 1)
-(set-background-color "black")
+(set-background-color "gray8")
 (set-foreground-color "white")
 (show-paren-mode 1)
 
