@@ -6,6 +6,8 @@
 	("org" . "https://orgmode.org/elpa/")
 	("melpa" . "http://melpa.org/packages/")))
 
+(set-face-attribute 'default nil :height 140)
+
 (setq visible-bell nil
       ring-bell-function 'flash-mode-line)
 (defun flash-mode-line ()
@@ -15,17 +17,17 @@
 (setq mac-option-modifier 'super)
 (setq mac-command-modifier 'meta)
 
-(set-face-attribute 'mode-line nil :foreground "black" :background "cyan")
+(set-face-attribute 'mode-line nil :foreground "black" :background "gray90")
 
 (electric-pair-mode 1)
-(set-background-color "gray8")
+(set-background-color "gray10")
 (set-foreground-color "white")
 (show-paren-mode 1)
 
 (setq power-mode-shake-strength nil)
 (setq power-mode-streak-shake-threshold nil)
 (use-package power-mode
-  :load-path "~/.emacs.d/power-mode.el"
+  :load-path "~/.emacs.d"
   :init
   (add-hook 'after-init-hook #'power-mode))
 
@@ -85,10 +87,31 @@ apps are not started from a shell."
   (require 'dap-cpptools)
   (yas-global-mode))
 
-(setq ido-everywhere t)
-(setq ido-enable-flex-matching t)
-(setq ido-show-dot-for-dired t)
-(ido-mode t)
+(require 'lsp-java)
+(add-hook 'java-mode-hook #'lsp)
+
+;(setq ido-everywhere t)
+;(setq ido-enable-flex-matching t)
+;(setq ido-show-dot-for-dired t)
+;(ido-mode t)
+(use-package vertico
+  :ensure t
+  :custom
+  (vertico-cycle t)
+  :init
+  (vertico-mode))
+
+(use-package savehist
+  :init
+  (savehist-mode))
+
+(use-package marginalia
+  :after vertico
+  :ensure t
+  :custom
+  (marginalia-annotators '(marginalia-annotators-heavy marginalia-annotators-light nil))
+  :init
+  (marginalia-mode))
 
 (use-package projectile
   :ensure t
@@ -100,7 +123,7 @@ apps are not started from a shell."
   :ensure t
   :init
   (progn
-    (setq dashboard-items '((recents . 5)
+    (setq dashboard-items '((recents . 10)
 			    (projects . 3)
 			    (agenda . 5))))
   (setq dashboard-center-content t)
@@ -122,13 +145,28 @@ apps are not started from a shell."
   :config
   (global-set-key (kbd "C-=") 'er/expand-region))
 
-(use-package centaur-tabs
+;(use-package centaur-tabs
+;  :ensure t
+;  :config
+;  (setq centaur-tabs-set-bar 'over
+;	centaur-tabs-set-icons t
+;	centaur-tabs-gray-out-icons 'buffer
+;	centaur-tabs-height 24
+;	centaur-tabs-set-modified-marker t
+;	centaur-tabs-modified-marker "*")
+; (centaur-tabs-mode t))
+
+(use-package org-roam
   :ensure t
+  :init
+  (setq org-roam-v2-ack t)
+  :custom
+  (org-roam-directory "~/Documents/RoamNotes")
+  :bind (("C-c n l" . org-roam-buffer-toggle)
+	 ("C-c n f" . org-roam-node-find)
+	 ("C-c n i" . org-roam-node-insert))
   :config
-  (setq centaur-tabs-set-bar 'over
-	centaur-tabs-set-icons t
-	centaur-tabs-gray-out-icons 'buffer
-	centaur-tabs-height 24
-	centaur-tabs-set-modified-marker t
-	centaur-tabs-modified-marker "*")
-  (centaur-tabs-mode t))
+  (org-roam-setup))
+
+(use-package magit
+  :ensure t)

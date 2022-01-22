@@ -2,7 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/briancheong/Documents/NUS/" . "TA_CS2030S/")
+ ("/Users/briancheong/Documents/NUS/TA_CS2030S/" . "lab0-SKCheongBrian/")
+ ("/Users/briancheong/Documents/NUS/" . "CS2106/")
  ("/Users/briancheong/Documents/Projects/" . "codeforces/")
  ("/Users/briancheong/Documents/" . "NUS/")
  ("/Users/" . "briancheong/")
@@ -14,7 +15,9 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/briancheong/.emacs.d/"
+ "/Users/briancheong/Documents/NUS/CS2106/"
  "/Users/briancheong/Documents/NUS/TA_CS2030S/lab0-SKCheongBrian/"
+ "/Users/briancheong/Documents/Projects/NCSThinkathon/"
  "/Users/briancheong/Documents/NUS/TA_CS2030S/"
  "/Users/briancheong/.emacs.d/power-mode.el/"
  "/Users/briancheong/Documents/Projects/codeforces/"
@@ -26,37 +29,48 @@
 ;; ----- ido-work-file-list -----
 (
  "Emacs.org"
+ "lec2.org"
+ "notes.org"
+ "Lab0.java"
+ "RandomPoint.java"
+ "Point.java"
  "Circle.java"
- "."
- "power-mode.el"
- "MakeAP.java"
- "TrianglesOnRectangle.java"
- "Birthdays.org"
+ "Question.md"
+ "casestudy2.org"
+ "casestudy2"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/briancheong/.emacs.d/" (25057 42391 716690 632000) ".lsp-session-v1" "sticker.png" ".cache/" ".git/" "Emacs.org~" "elpa/" "recentf" ".dap-breakpoints" "Emacs.org" "network-security.data" "sanemacs.el" "init.el" "emacs-custom.el" "auto-save-list/" "emacs-custom.el~" "custom.el" "recentf~" "eclipse.jdt.ls/" "workspace/" "projectile-bookmarks.eld" "ido.last~" "power-mode.el/" "init.el~" "ido.last" "snippets/" "../" "./")
+ ("/Users/briancheong/Documents/NUS/CS2040S/missions/ps2/" (24594 47491 477542 739000) ".idea/" "README.txt" "ps2.iml" "ps2/" "out/" ".DS_Store" "ps2.pdf" "../" "./")
+
+ ("/Users/briancheong/Documents/NUS/CS2040S/missions/ps2/ps2/" (24583 51559 778552 323000) ".idea/" "LoadBalancing.java" "ps2.iml" "LoadBalancingTest.java" "Optimization.java" "OptimizationTest.java" "../" "./")
+
+ ("/Users/briancheong/.emacs.d/" (25062 17654 106680 325000) ".lsp-session-v1" "sticker.png" ".cache/" ".git/" "Emacs.org~" "elpa/" "recentf" ".dap-breakpoints" "Emacs.org" "network-security.data" "sanemacs.el" "init.el" "emacs-custom.el" "auto-save-list/" "emacs-custom.el~" "custom.el" "recentf~" "eclipse.jdt.ls/" "workspace/" "projectile-bookmarks.eld" "ido.last~" "power-mode.el/" "eshell/" "init.el~" "ido.last" "snippets/" "../" "./")
+
+ ("/Users/briancheong/.emacs.d/elpa/" (25059 53332 775173 886000) "treemacs-20211207.2125/" "posframe-20211126.944/" "lsp-java-20211124.605/" "visual-fill-column-20211118.33/" "helm-xref-20211017.1334/" "async-20210823.528/" "helm-lsp-20210419.2014/" "rainbow-identifiers-20141102.1526/" "dap-mode-20211117.1555/" "yasnippet-snippets-20210910.1959/" "lsp-ui-20211206.1840/" "helm-core-20211202.1641/" "f-20210624.1103/" "dash-20210826.1149/" "spinner-1.7.4/" "centaur-tabs-20220112.1239/" "which-key-20211209.1317/" "s-20210616.619/" "lsp-treemacs-20211129.955/" "ace-window-20200606.1259/" "use-package-20210207.1926/" "java-snippets-20160627.252/" "bind-key-20210210.1609/" "dashboard-20211221.2005/" "powerline-20211022.655/" "lv-20200507.1518/" "ht-20210119.741/" "archives/" "pfuture-20200425.1357/" "hydra-20201115.1055/" "projectile-20211206.1920/" "helm-20211208.606/" "request-20211107.1907/" "undo-tree-0.7.5/" "epl-20180205.2049/" "company-20211201.2335/" "expand-region-20210708.1952/" "pkg-info-20150517.1143/" "org-present-20220108.1802/" "cfrs-20211013.1802/" "bui-20210108.1141/" "lsp-jedi-20210602.1925/" "yasnippet-20200604.246/" "all-the-icons-20211108.7/" "avy-20201226.1734/" "markdown-mode-20211022.55/" "flycheck-20210825.1804/" "telega-20220109.1120/" "lsp-mode-20211210.540/" "popup-20210625.400/" "../" "./")
+
+ ("/Users/briancheong/Documents/NUS/TA_CS2030S/lab0-SKCheongBrian/" (25059 53824 125146 261000) "Test1.class" "inputs/" "outputs/" "test.sh" "Test3.class" ".git/" "Question.md" "Test1.java" "Circle.class" "TempClass.class" "Test2.class" "Lab0.java" "Point.class" ".gitignore" "Circle.java" "CS2030STest.class" "RandomPoint.java" "Lab0.class" "Point.java" "notes.org" "RandomPoint.class" "Test2.java" "CS2030STest.java" "CS2030STest$1JavaSourceFromString.class" "Test3.java" "../" "./")
+
+ ("/Users/briancheong/Documents/NUS/CS2106/" (25060 9313 478129 779000) "lectures/" ".DS_Store" "tutorial/" "misc/" "../" "./")
+
+ ("/Users/briancheong/" (25059 62948 455650 351000) ".zsh_sessions/" ".viminfo" ".bash_history" ".telega/" ".mume/" ".gitconfig" "lab10part2.circ" ".cache/" ".python_history" "Downloads/" ".Xauthority" ".kite/" ".m2/" ".spacemacs" ".vscode/" ".mono/" "Multiplication-Exercise/" ".spacemacs.env" "Documents/" ".npm/" ".vscode-insiders/" "test.c" "floobits/" ".gitflow_export" "IdeaProjects/" ".Trash/" ".emacs~" ".gradle/" ".profile" "Applications/" ".dotnet/" ".vimrc" "Movies/" "StudioProjects/" ".ssh/" ".rustup/" ".sonarlint/" "CheongSzeKaiBrianLab9.zip" "multiplication.py" ".flutter" ".zshenv" "colors/" "poo" "package.json" "package-lock.json" ".vscode-oss/" "Person.java" "Public/" "PycharmProjects/" "a.out" "OrgFiles/" ".ms_openjdk_config" ".cups/" ".gitignore_global" ".back.up.emacs.d/" ".android/" ".cargo/" "codingproblems/" ".emacs.d/" "vimrc" ".IdentityService/" ".floorc.json" ".emulator_console_auth_token" ".gdbinit" ".oracle_jre_usage/" "vscode-extensions.txt" ".lesshst" "Library/" "Desktop/" "CodingProject/" ".zsh_history" ".flutter_tool_state" "CS1010E/" ".nuget/" ".pub-cache/" ".openjfx/" ".dartServer/" "node_modules/" ".authinfo" "CheongSzeKaiBrianLab9/" ".zprofile" ".atom/" "cs2030ssh.sh" ".pylint.d/" "Pictures/" "Projects/" "Person.class" ".local/" "fintech_folio/" ".templateengine/" "org/" ".omnisharp/" ".zshrc" ".tooling/" ".hgignore_global" "playground/" ".stCommitMsg" ".CFUserTextEncoding" ".lldb/" "get-pip.py" ".DS_Store" ".dart/" ".vim/" "pythonCode/" "lab10part1.circ" "Developer/" ".gitkraken/" "avenger" ".notes.swp" "Unity/" "Music/" ".macports/" ".config/" "Solution.java" "../" "./")
+
+ ("/Users/briancheong/Documents/Projects/NCSThinkathon/" (25059 46871 133602 383000) "../" "./")
+
+ ("/Users/briancheong/OrgFiles/" (25054 41236 632295 209000) "Habits.org" "Journal.org" "Birthdays.org~" "Birthdays.org" "Tasks.org" "Tasks.org~" "#Tasks.org#" "Journal.org~" "../" "./")
+
+ ("/Users/briancheong/Documents/Projects/codeforces/" (25055 799 582514 719000) "MakeAP.java" "WrongAddition.class" "Elephant.java~" "Word.java~" "TrianglesOnRectangle.java" "WrongAddition.java~" "Elephant.class" "EqualOrNot.java" "TrianglesOnRectangle.class" "#Word.java#" "#MakeAP.java#" "#Elephant.java#" "TrianglesOnRectangle.java~" "MakeAP.java~" "EqualOrNot.java~" "Word.java" "CodeForces.java~" "CodeForces.class" "Elephant.java" "MakeAP.class" "EqualOrNot.class" "WrongAddition.java" "#CodeForces.java#" "CodeForces.java" "../" "./")
+
+ ("/Users/briancheong/.emacs.d/power-mode.el/" (25055 2124 382336 680000) ".git/" "screencast.gif" "README.md" "power-mode.el" "LICENSE" "../" "./")
 
  ("/Users/briancheong/.back.up.emacs.d/" (24968 42071 904334 941000) ".lsp-session-v1" ".cache/" ".git/" "elpa/" ".dap-breakpoints" ".#init.el" "bookmarks" "init.el" "auto-save-list/" "var/" "etc/" "eclipse.jdt.ls/" "workspace/" "transient/" "projectile-bookmarks.eld" ".DS_Store" "tutorial/" "forge-database.sqlite" ".custom.el" "../" "./")
-
- ("/Users/briancheong/Documents/NUS/TA_CS2030S/lab0-SKCheongBrian/" (25057 39526 333680 754000) "inputs/" "outputs/" "test.sh" ".git/" "Question.md" "Test1.java" ".#Point.java" "Lab0.java" ".gitignore" "Circle.java" "RandomPoint.java" "Point.java" "Test2.java" "CS2030STest.java" "Test3.java" "../" "./")
 
  ("/Users/briancheong/Documents/NUS/TA_CS2030S/" (25057 39452 968757 162000) "lab0-SKCheongBrian/" "../" "./")
 
  ("/Users/briancheong/Documents/NUS/" (25057 39445 817487 781000) "src/" "CS1101S/" "GER1000/" "TA_CS2030S/" "jdk-11.0.9.jdk/" "GEQ1000/" "ES2660/" "ST2334/" "CS2105/" "LSM1303/" "CS2102/" "CS2030S/" "CP2201/" "MA1101R/" "CS1010E/" "Provectus/" "GEH1049/" "CS1231S/" "recording/" "TA_CS1101S/" "CS2100/" "MySolutionMazeSolverWithPower.java" "CS2101/" "CS2040S/" "CS2106/" ".DS_Store" "CS2103T/" "IS1103/" "GET1026/" "../" "./")
 
- ("/Users/briancheong/" (25057 39422 911145 961000) ".zsh_sessions/" ".viminfo" ".bash_history" ".telega/" ".mume/" ".gitconfig" "lab10part2.circ" ".cache/" ".python_history" "Downloads/" ".Xauthority" ".kite/" ".m2/" ".spacemacs" ".vscode/" ".mono/" "Multiplication-Exercise/" ".spacemacs.env" "Documents/" ".npm/" ".vscode-insiders/" "test.c" "floobits/" ".gitflow_export" "IdeaProjects/" ".Trash/" ".emacs~" ".gradle/" ".profile" "Applications/" ".dotnet/" ".vimrc" "Movies/" "StudioProjects/" ".ssh/" ".rustup/" ".sonarlint/" "CheongSzeKaiBrianLab9.zip" "multiplication.py" ".flutter" ".zshenv" "colors/" "poo" "package.json" "package-lock.json" ".vscode-oss/" "Person.java" "Public/" "PycharmProjects/" "a.out" "OrgFiles/" ".ms_openjdk_config" ".cups/" ".gitignore_global" ".back.up.emacs.d/" ".android/" ".cargo/" "codingproblems/" ".emacs.d/" "vimrc" ".IdentityService/" ".floorc.json" ".emulator_console_auth_token" ".gdbinit" ".oracle_jre_usage/" "vscode-extensions.txt" ".lesshst" "Library/" "Desktop/" "CodingProject/" ".zsh_history" ".flutter_tool_state" "CS1010E/" ".nuget/" ".pub-cache/" ".openjfx/" ".dartServer/" "node_modules/" ".authinfo" "CheongSzeKaiBrianLab9/" ".zprofile" ".atom/" "cs2030ssh.sh" ".pylint.d/" "Pictures/" "Projects/" "Person.class" ".local/" "fintech_folio/" ".templateengine/" "org/" ".omnisharp/" ".zshrc" ".tooling/" ".hgignore_global" "playground/" ".stCommitMsg" ".CFUserTextEncoding" ".lldb/" "get-pip.py" ".DS_Store" ".dart/" ".vim/" "pythonCode/" "lab10part1.circ" "Developer/" ".gitkraken/" "avenger" ".notes.swp" "Unity/" "Music/" ".macports/" ".config/" "Solution.java" "../" "./")
-
- ("/Users/briancheong/.emacs.d/power-mode.el/" (25055 2007 25242 994000) ".git/" "screencast.gif" "README.md" "power-mode.el" "LICENSE" "../" "./")
-
- ("/Users/briancheong/Documents/Projects/codeforces/" (25054 38913 888989 215000) "MakeAP.java" "WrongAddition.class" "Elephant.java~" "Word.java~" "TrianglesOnRectangle.java" "WrongAddition.java~" "Elephant.class" "EqualOrNot.java" "TrianglesOnRectangle.class" "#Word.java#" "#Elephant.java#" "TrianglesOnRectangle.java~" "MakeAP.java~" "EqualOrNot.java~" "Word.java" "CodeForces.java~" "CodeForces.class" "Elephant.java" "MakeAP.class" "EqualOrNot.class" "WrongAddition.java" "#CodeForces.java#" "CodeForces.java" "../" "./")
-
  ("/Users/briancheong/Documents/Projects/" (25053 43300 744893 879000) "makanwhere/" "coursera/" "wheretomeet/" "ToDew/" "test/" "codeforces/" ".DS_Store" "advent/" "../" "./")
-
- ("/Users/briancheong/.emacs.d/elpa/" (25054 26816 9579 644000) "treemacs-20211207.2125/" "posframe-20211126.944/" "lsp-java-20211124.605/" "visual-fill-column-20211118.33/" "helm-xref-20211017.1334/" "async-20210823.528/" "helm-lsp-20210419.2014/" "rainbow-identifiers-20141102.1526/" "dap-mode-20211117.1555/" "yasnippet-snippets-20210910.1959/" "lsp-ui-20211206.1840/" "helm-core-20211202.1641/" "f-20210624.1103/" "dash-20210826.1149/" "spinner-1.7.4/" "which-key-20211209.1317/" "s-20210616.619/" "lsp-treemacs-20211129.955/" "ace-window-20200606.1259/" "use-package-20210207.1926/" "java-snippets-20160627.252/" "bind-key-20210210.1609/" "dashboard-20211221.2005/" "lv-20200507.1518/" "ht-20210119.741/" "archives/" "pfuture-20200425.1357/" "hydra-20201115.1055/" "projectile-20211206.1920/" "helm-20211208.606/" "request-20211107.1907/" "undo-tree-0.7.5/" "epl-20180205.2049/" "company-20211201.2335/" "pkg-info-20150517.1143/" "cfrs-20211013.1802/" "bui-20210108.1141/" "lsp-jedi-20210602.1925/" "yasnippet-20200604.246/" "all-the-icons-20211108.7/" "avy-20201226.1734/" "markdown-mode-20211022.55/" "flycheck-20210825.1804/" "telega-20220109.1120/" "lsp-mode-20211210.540/" "popup-20210625.400/" "../" "./")
-
- ("/Users/briancheong/OrgFiles/" (25054 31198 365252 929000) "Habits.org" "Journal.org" "Birthdays.org~" "Birthdays.org" "Tasks.org" "Tasks.org~" "Journal.org~" "../" "./")
 
  ("/Users/briancheong/Documents/" (25049 44860 181347 164000) "NUS/" "18010800_CHEONG SZE KAI BRIAN/" "javafx-sdk-17.0.1/" "18010800_Cheong Sze Kai, Brian/" "github-recovery-codes.txt" "peepeepoopoo/" "Zoom/" "MATLAB/" "GitHub/" "HTML and CSS Workshop/" "intellij-plugin/" "omg cute/" "terminus-ttf-4.49.1/" "Projects/" ".localized" ".DS_Store" "Telegram Desktop/" "Competitive Programming 3 ( PDFDrive ).pdf" "IS111 Introduction to Programming/" "book.pdf" "../" "./")
 
